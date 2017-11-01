@@ -148,11 +148,13 @@
   <ItemGroup>
     <ClCompile Include="gauss_seidel.cpp" />
     <ClCompile Include="jacobi.cpp" />
+    <ClCompile Include="sor.cpp" />
     <ClCompile Include="源.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="gauss_seidel.h" />
     <ClInclude Include="jacobi.h" />
+    <ClInclude Include="sor.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

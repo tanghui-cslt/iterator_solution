@@ -18,11 +18,14 @@
     <ClCompile Include="源.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="jacobi.cpp">
-      <Filter>头文件</Filter>
-    </ClCompile>
     <ClCompile Include="gauss_seidel.cpp">
-      <Filter>头文件</Filter>
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jacobi.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sor.cpp">
+      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -30,6 +33,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="gauss_seidel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sor.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
